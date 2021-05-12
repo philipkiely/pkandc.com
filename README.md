@@ -1,10 +1,16 @@
 # pkandc.com
 
-/
-/products
-/editing
-/about
-/contact
+
+[] coming soon page
+[] deploy
+[] build.py - mkdocs (or maybe subdomain/separate repo)
+[] homepage
+[] editorial page
+[] (mirror) products
+[] about
+[] contact
+[] document
+
 
 Stack
 
