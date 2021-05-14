@@ -1,1 +1,39 @@
-@use "bootstrap/scss/bootstrap";
+@use "bootstrap/scss/bootstrap" as bs;
+
+.bg-indigo-100 {
+    background-color: bs.$indigo-100;
+}
+
+.bg-grey-100 {
+    background-color: bs.$gray-100;
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: .75rem;
+}
+
+.btn-primary {
+    background-color: bs.$indigo-600 !important;
+    border-color: bs.$indigo-700 !important;
+}
+
+.btn-primary:hover {
+    background-color: bs.$indigo-200 !important;
+    border-color: bs.$indigo-300 !important;
+    color: bs.$indigo-900;
+}
