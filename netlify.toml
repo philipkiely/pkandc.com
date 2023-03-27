@@ -1,5 +1,0 @@
-[build]
-  command = "python build.py --prod"
-  publish = "dist"
-  # Configure with Environment Variables
-  environment = { PYTHON_VERSION = "3.7" }
